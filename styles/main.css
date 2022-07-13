@@ -30,17 +30,8 @@
 * -------Start Common Styles------- */
 body {
   font-family: 'SourceSansPro-Regular';
-}
-
-a:link,
-a:active,
-a:visited {
-  text-decoration: none;
-}
-
-img {
-  width: 100%;
-  height: auto;
+  display: flex;
+  position: absolute ;
 }
 
 
@@ -48,111 +39,115 @@ img {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
+  /* display: flex;
+  align-items: flex-end; */
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0;
-  background-color: #000;
+.header-section{
+  background-image:url('../images/header-section/header-bg.png');
+  background-color: #cccccc;
+  height: 680px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-/* Flex Container */
-.main-header-container,
-.social-list,
-.contact-list,
-.main-menu-container,
-.nav-list,
-.about-us-container,
-.feature-list,
-.info-list,
-.work-list,
-.work-gallery,
-.member-list,
-.news-list,
-.plan-list,
-.footer-container {
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display:         flex;
-}
-
-.layout-common {
+.header-navbar {
+  display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
-.section-heading {
-  font-family: 'SourceSansPro-Light';
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  /* text-transform: uppercase; */
-  opacity: 30%;
-  color: #000000;
+.header-logo{
+  width: 216.85px;
+  height: 44px;
+  left: 149.9px;
+  top: 54px;
+}
+
+.logo {
+  font-family: "Montserrat-Bold";
+  color: #EBCB80;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: auto;
+}
+
+.nav-item{
+  width: 315.78px;
+  height: 23px;
+  left: 765.47px;
+  top: 66px;
+  
+}
+
+.nav-item ul li  a {
+  font-family: 'SourceSansPro';
+  width: 74.95px;
+  height: 46px;
+  left: 765.47px;
+  top: 66px;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 1px;
+  color: #FFFFFF;  
+}
+
+.img {
+  width: 100%;  
 }
 
 .btn-common {
   font-family: 'Montserrat-Regular';
-  text-align: center;
+  font-size: 16px;
   border-radius: 50px;
   background-color: #EBCB80;
   border: 1px solid #EBCB80;
-  /* background: transparent; */
+  width: 179.88px;
   height: 48px;
+  left: 1110.23px;
+  top: 54px;
+}
+.btn-common-header-nav {
+  color: #FFFFFF;
 }
 
 
-
-/* -------Start Main Header Styles------- */
-.header {
-    font-size: 13px;
-    background: #464646;
-  }
-  
-.header-container {
-    padding: 15px 0;
-}
-
-/* -------End Main Header Styles------- */
-  
-/* -------Start Main Menu Styles------- */
-.list-item {
-  padding-right: 25px;
-}
-
-.list-item a {
-  font-family: 'SourceSansPro-Light';
-  font-size: 18px; 
-  line-height: 100%;
-  text-align: left;
-	vertical-align: bottom;
-	word-spacing: 10px;
-}
-
-.header-content {
-  flex-direction: column;
+.content{
+  display: flex;
+  align-items: center;
   text-align: center;
-  margin-bottom: 25px;
-	color: #FFFFFF;
+  flex-direction: column;
 }
 
-.header-title {
-	font-family: 'Montserrat-Both';
+.header-title{
+  font-family: 'Montserrat-Both';
+  font-style: normal;
+  font-weight: 700;
   font-size: 44px;
   line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+  /* or 109% */
 }
 
-.header-subtitle {
-  font-family: 'SourceSansPro-Regular';
-  font-weight: var(--font-weight-bold);
-  font-size: 16px;
+.header-subtitle{
+  color: #FFFFFF;
+  /* text-align: center; */
 }
 
-.main-image {
+
+.overlay {
+  position: absolute;
   width: 1439px;
   height: 680px;
-  justify-content: center;
+  left: 0px;
+  top: 0px;
 }
+
+
