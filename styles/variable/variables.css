@@ -1,0 +1,31 @@
+:root {
+    --btn-primary-color: #ffa600;
+    --dark: #071630;
+    --text-outline-primary: #0061e3;
+    --text-light: #fff;
+    --text-original: #677183;
+    --bg-gradient: linear-gradient(180deg, #fff 10%, #67a2fe 230%);
+    --bg-checkmark: #67a2fe;
+  
+    --font-family-bold: 'Source Sans Pro';
+    --font-family-semibold: 'Source Sans Pro SemiBold';
+    --font-family-regular: 'Source Sans Pro Regular';
+    --font-size-nav: 16px;
+    --line-height-nav: 16px;
+    --font-size-title: 50px;
+    --line-height-title: 63px;
+    --font-size-medium-title: 36px;
+    --line-height-medium-title: 49px;
+    --font-size-text: 24px;
+    --line-height-text: 38px;
+    --font-size--small-text: 18px;
+    --line-height-small-text: 29px;
+  
+    --width: 1140px;
+    --borderRadius-small: 10px;
+  
+    --font-weight-normal: 400;
+    --font-weight-bold: 600;
+    --font-weight-upper-bold: 700;
+  }
+  
