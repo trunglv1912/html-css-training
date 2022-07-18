@@ -5,175 +5,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Trung V. Le">
+
     <title>Practice One || HOFMANN</title> 
     <link rel="stylesheet" href="styles/main.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="styles/reset.css"/> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   </head>
 
   <body>
     <!--Header start-->
     <header class="header">
       <div class="container">
-        
-      <div class="header-nav">
+        <div class="main-menu-container">
+          <!-- Start Page Logo -->
+          <h1 class="page-title"><img src="images/header/header-logo.png" alt="HOFMANN"></h1>
+          <!-- End Page Logo -->
+    
+          <!-- Start Main Navigation -->
+          <nav class="main-nav">
+            <ul class="nav-list">
+              <li><a class="nav-link">Mission</a></li>
+              <li><a class="nav-link">Services</a></li>
+              <li><a class="nav-link">About</a></li>
+            </ul>
+            <button class="btn btn-take-a-tour">TAKE A TOUR</button>
+          </nav>
+          <!-- End Main Navigation -->
+        </div>
+        <!-- End Main Menu -->
 
-        <h1 class="logo">HOFMANN</h1>
-        
-        <nav>
-          <ul>
-            <li><a href="#">MISSION</a></li>
-            <li><a href="#">SERVICES</a></li>
-            <li><a href="#">ABOUT</a></li>
-          </ul>
-          <button class="btn btn-take-a-tour">TAKE A TOUR</button>
-        </nav>  
-      </div>
+        <!-- Start Banner -->
+        <section class="banner">
+          <h2 class="banner-heading">What Makes A Hotel Boutique</h2>
+          <p class="banner-description">
+            As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the host to your journey; without Her we could not find the unfolding adventures that attract and feed our souls.
+          </p>
+          <button class="btn btn-explore">EXPLORE</button>
+            </section>
+        <!-- End Banner -->
 
-      <!-- header content -->
-      <div class="content">
-        <h2>What Makes A Hotel Boutique</h2>
-        <p>
-          As conscious traveling Paupers we must always be concerned about our dear Mother Earth. If you think about it, you travel across her face, and She is the host to your journey; without Her we could not find the unfolding adventures that attract and feed our souls.
-        </p>
-        <button class="btn btn-explore">EXPLORE</button>
-      </div> 
-      </div>   
+      </div>  
+
     </header>
     <!--Header end-->
 
     <!-- Pricing Section -->
     <section class="pricing">
-      <div class="title">
-        <h2>Subscribing Plans</h2>
-      </div>
-      
-      <!-- freemium -->
-      <div class="box">
-        <div class="card">
-          <div>
-            <img src=".//images/pricing-section/freemium.png">
-              <p>FREEMIUM</p>
-          </div>
-          
-          <div class="pra">
-            <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
-
-            <p style="text-align: center;">
-              <a class="button" href="#">GET STARTED</a>
-            </p>
-          </div>
-        </div>
-        
-        <!-- start-up -->
-        <div class="card">
-          <div>
-            <img class=""></i>
-              <h5>Web Development</h5>
-          </div>
-
-          <div class="pra">
-            <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
-
-            <p style="text-align: center;">
-              <a class="button" href="#">GET STARTED</a>
-            </p>
-          </div>
-        </div>
-        
-        <!-- business -->
-        <div class="card">
-          <div>
-            <img class=""></i>
-              <h5>Web Development</h5>
-          </div>
-
-          <div class="pra">
-            <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
-
-            <p style="text-align: center;">
-              <a class="button" href="#">GET STARTED</a>
-            </p>
-          </div>
-        </div>
-        
-        <!-- enterprise -->
-        <div class="card">
-          <div>
-            <img class=""></i>
-              <h5>Web Development</h5>
-          </div>
-
-          <div class="pra">
-            <p>Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
-
-            <p style="text-align: center;">
-              <a class="button" href="#">GET STARTED</a>
-            </p>
-          </div>
-        </div>
-        
-      </div>
-    </section>
-
-    <section class="features">
-      <div class="title">
-        <h2>Subscribing Plans</h2>
-      </div>
-
-      <!-- <div></div> -->
-
-    </section>
-
- 
-
-    <!-- Stunning Results -->
-    <!-- <section class="stunning-results" id="stunning-results">
-      <div class="content">
-          <h2 class="header-title">Subscribing Plans</h2>
-        </div>
-      </div>
-  
       <div class="container">
+      
+      <div class="title">
+        <h2>Subscribing Plans</h2>
+      </div>
+    
+      <ul class="cards">
+        
+        <li class="cards-item">
+          <!-- freemium card -->
+            <div class="card-sub-plan">
 
-        <div class="">
-          <div class="">
-            <span class="percent"></span>
-            <div class="chart-text">
-              <span>TOTAL CONVERSION</span>
+              <img class="card-image" src="images/pricing/freemium.png" alt="freemium">
+              <h3 class="card-title">FREEMIUM</h3>
             </div>
-            <p class="">The past few years have seen a dramatic change in the public perception of cosmetic surgery.</p>
-          </div>
-        </div>
-  
-        <div class="">
-          <div class="">
-            <span class="percent"></span>
-            <div class="chart-text">
-              <span>FREE DOWNOADS</span>
+            
+            <div class="card-sub-content">
+
+              <p class="sub-content">Basic Collections</p>
+              <p class="sub-content">Basic Collections</p>
+              <p class="sub-content">Basic Collections</p>
+              
+              <button class="btn card-btn">GET STARTED</button>
+            </div>        
+        </li>
+        
+        <li class="cards-item">
+          <!-- Start Up card -->
+            <div class="card-sub-plan">
+
+              <img class="card-image" src="images/pricing/start-up.png" alt="start-Up">
+              <h3 class="card-title">START UP</h3>
             </div>
-            <p class="content">Can you imagine what we will be downloading in another twenty years?</p>
-          </div>
-        </div>
-  
-        <div class="">
-          <div class="">
-            <span class="percent"></span>
-            <div class="chart-text">
-              <span>UNIQUE VISITORS</span>
+            
+            <div class="card-sub-content">
+
+              <p class="sub-content">Basic Collections</p>
+              <p class="sub-content">Basic Collections</p>
+              <p class="sub-content">Basic Collections</p>
+              <button class="btn card-btn">GET STARTED</button>
+            </div>        
+        </li>
+
+        <li class="cards-item">
+          <!-- Business card -->
+            <div class="card-sub-plan">
+
+              <img class="card-image" src="images/pricing/business.png" alt="business">
+              <h3 class="card-title">BUSINESS</h3>
             </div>
-            <p class="content">WordPress, the premier free open-source blogging utility, has gone through several upgrades in its life.</p>
-          </div>
-        </div> -->
-  
-      <!-- </div>  
+            
+            <ul class="card-sub-content">
+
+              <li class="sub-content">Basic Collections</li>
+              <li class="sub-content">Basic Collections</li>
+              <li class="sub-content">Basic Collections</li>
+              <button class="btn card-btn">GET STARTED</button>
+            </ul>        
+        </li>
+
+        <li class="cards-item">
+          <!-- Enteprise card -->
+            <div class="card-sub-plan">
+
+              <img class="card-image" src="images/pricing/enterprise.png" alt="enterprise">
+              <h3 class="card-title">ENTERPRESE</h3>
+            </div>
+            
+            <div class="card-sub-content">
+
+              <p class="sub-content">Basic Collections</p>
+              <p class="sub-content">Basic Collections</p>
+              <p class="sub-content">Basic Collections</p>
+              <button class="btn card-btn">GET STARTED</button>
+            </div>        
+        </li>
+      
+      </ul>
+   
+      </div>
+
     </section> -->
 
-    <!-- Sign-up Section -->
-
-    <!-- Footer Section -->
-
-
-
+ 
   </body>
 
 </html>
