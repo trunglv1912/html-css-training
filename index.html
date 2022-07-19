@@ -8,8 +8,10 @@
 
     <title>Practice One || HOFMANN</title> 
     <link rel="stylesheet" href="styles/main.css"/>
-    <!-- <link rel="stylesheet" href="styles/reset.css"/> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="styles/reset.css"/>
+    <!-- <link rel="stylesheet" href="styles/font-awesome.min.css"> -->
+      <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   </head>
 
   <body>
@@ -49,91 +51,142 @@
     </header>
     <!--Header end-->
 
-    <!-- Pricing Section -->
+    <!-- Start Pricing section -->
     <section class="pricing">
       <div class="container">
-      
-      <div class="title">
-        <h2>Subscribing Plans</h2>
-      </div>
-    
-      <ul class="cards">
+        <h2 class="section-heading">Subscribing Plans</h2>
         
-        <li class="cards-item">
-          <!-- freemium card -->
-            <div class="card-sub-plan">
-
-              <img class="card-image" src="images/pricing/freemium.png" alt="freemium">
-              <h3 class="card-title">FREEMIUM</h3>
-            </div>
+        <ul class="plan-list">
+          
+          <li class="plan-item">
+            <div class="plan-item-top">
+              <h3 class="plan-name">Standard</h3>
+              <img src="/images/pricing/business.png" alt="freemium">
+              <div class="plan-content">
+                <p class="plan-cost">
+                  <span class="dollar">$</span>
+                  <span class="cost-number">29</span>
+                </p>
+              </div>  
+            </div>      
             
-            <div class="card-sub-content">
+            <div class="plan-item-bot">  
+              <ul class="option-list">
+                <li class="option-item">Unlimited Collections</li>
+                <li class="option-item">500 Messages</li>
+                <li class="option-item">300 Images per Day</li>
+                <li class="option-item">Project Reviews</li>
+              </ul>
+              <button class="btn btn-get-started">GET STARTED</button>
+            </div>
 
-              <p class="sub-content">Basic Collections</p>
-              <p class="sub-content">Basic Collections</p>
-              <p class="sub-content">Basic Collections</p>
+            <li class="plan-item">
+              <div class="plan-item-top">
+                <h3 class="plan-name">Standard</h3>
+                <img src="/images/pricing/business.png" alt="freemium">
+                <div class="plan-content">
+                  <p class="plan-cost">
+                    <span class="dollar">$</span>
+                    <span class="cost-number">29</span>
+                  </p>
+                </div>  
+              </div>      
               
-              <button class="btn card-btn">GET STARTED</button>
-            </div>        
-        </li>
-        
-        <li class="cards-item">
-          <!-- Start Up card -->
-            <div class="card-sub-plan">
+              <div class="plan-item-bot">  
+                <ul class="option-list">
+                  <li class="option-item">Unlimited Collections</li>
+                  <li class="option-item">500 Messages</li>
+                  <li class="option-item">300 Images per Day</li>
+                  <li class="option-item">Project Reviews</li>
+                </ul>
+                <button class="btn btn-get-started">GET STARTED</button>
+              </div>
 
-              <img class="card-image" src="images/pricing/start-up.png" alt="start-Up">
-              <h3 class="card-title">START UP</h3>
-            </div>
-            
-            <div class="card-sub-content">
 
-              <p class="sub-content">Basic Collections</p>
-              <p class="sub-content">Basic Collections</p>
-              <p class="sub-content">Basic Collections</p>
-              <button class="btn card-btn">GET STARTED</button>
-            </div>        
-        </li>
+              <li class="plan-item">
+                <div class="plan-item-top">
+                  <h3 class="plan-name">Standard</h3>
+                  <img src="/images/pricing/business.png" alt="freemium">
+                  <div class="plan-content">
+                    <p class="plan-cost">
+                      <span class="dollar">$</span>
+                      <span class="cost-number">29</span>
+                    </p>
+                  </div>  
+                </div>      
+                
+                <div class="plan-item-bot">  
+                  <ul class="option-list">
+                    <li class="option-item">Unlimited Collections</li>
+                    <li class="option-item">500 Messages</li>
+                    <li class="option-item">300 Images per Day</li>
+                    <li class="option-item">Project Reviews</li>
+                  </ul>
+                  <button class="btn btn-get-started">GET STARTED</button>
+                </div>
 
-        <li class="cards-item">
-          <!-- Business card -->
-            <div class="card-sub-plan">
+                <li class="plan-item">
+                  <div class="plan-item-top">
+                    <h3 class="plan-name">Standard</h3>
+                    <img src="/images/pricing/business.png" alt="freemium">
+                    <div class="plan-content">
+                      <p class="plan-cost">
+                        <span class="dollar">$</span>
+                        <span class="cost-number">29</span>
+                      </p>
+                    </div>  
+                  </div>      
+                  
+                  <div class="plan-item-bot">  
+                    <ul class="option-list">
+                      <li class="option-item">Unlimited Collections</li>
+                      <li class="option-item">500 Messages</li>
+                      <li class="option-item">300 Images per Day</li>
+                      <li class="option-item">Project Reviews</li>
+                    </ul>
+                    <button class="btn btn-get-started">GET STARTED</button>
+                  </div>
 
-              <img class="card-image" src="images/pricing/business.png" alt="business">
-              <h3 class="card-title">BUSINESS</h3>
-            </div>
-            
-            <ul class="card-sub-content">
+        </ul>
 
-              <li class="sub-content">Basic Collections</li>
-              <li class="sub-content">Basic Collections</li>
-              <li class="sub-content">Basic Collections</li>
-              <button class="btn card-btn">GET STARTED</button>
-            </ul>        
-        </li>
-
-        <li class="cards-item">
-          <!-- Enteprise card -->
-            <div class="card-sub-plan">
-
-              <img class="card-image" src="images/pricing/enterprise.png" alt="enterprise">
-              <h3 class="card-title">ENTERPRESE</h3>
-            </div>
-            
-            <div class="card-sub-content">
-
-              <p class="sub-content">Basic Collections</p>
-              <p class="sub-content">Basic Collections</p>
-              <p class="sub-content">Basic Collections</p>
-              <button class="btn card-btn">GET STARTED</button>
-            </div>        
-        </li>
-      
-      </ul>
-   
       </div>
+    </section>
+    <!-- End Pricing Plan -->
 
-    </section> -->
+    <!-- Start Features-->
+    <section class="features">
+      <div class="container"> 
 
+        <h2 class="section-heading">Features</h2>
+        <p class="sub-heading">WE’RE TAKING IT TO THE NEXT LEVEL</p>
+        <div class="features-item">
+          <div class="left-feature-item">
+            <div class="left-feature-item-icon">
+              <i class="fab fa-gem"></i>
+            </div>
+            <h3 class="left-feature-item">RESPONSIVE LAYOUT</h3>
+            <p class="left-feature-item">The past few years have seen a dramatic change in the public perception of cosmetic surgery.</p>
+          
+            <div class="left-feature-item-icon">
+              <i class="fa fa-diamond"></i>
+            </div>
+            <h3 class="left-feature-item">PIXEL PERFECT</h3>
+            <p class="left-feature-item">About 64% of all on-line teens say that do things online that they wouldn’t want their parents to know about.</p>
+            
+            <div class="left-feature-item-icon">
+              <i class="fa fa-diamond"></i>
+            </div>
+            <h3 class="left-feature-item">ORGANIZED LAYERS</h3>
+            <p class="left-feature-item">Are you one of the thousands of Iphone owners who has no idea that they can get free games for their Iphone?</p>
+          </div>
+          <!-- Laptop image -->
+          <div class="right-feature-item">
+            <img src="images/features/laptop-image.png" alt="laptop">
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- End About Us -->
  
   </body>
 
