@@ -10,11 +10,6 @@ body {
   margin: 0px auto;
 }
 
-/* img {
-  width: 100%;
-  height: auto;
-} */
-
 .section-heading {
   font-family: "Montserrat", sans-serif;
   font-size: 44px;
@@ -33,6 +28,7 @@ body {
 .btn {
   font-family: "Montserrat", sans-serif;
   background-color: #ebcb80;
+  cursor: pointer;
   padding-top: 14px;
   padding-bottom: 14px;
   font-size: 16px;
@@ -298,86 +294,79 @@ body {
   text-transform: uppercase;
 }
 
-/* .feature-img {
-
-} */
-
-/* -------End Features Styles------- */
+/* ============== End Features Styles ============== */
 
 /* -------Start Sign-up Styles ---------- */
 
-.sign-up {
+.create-account {
   background-image: url(/images/sign-up/sign-up-bg.png);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sign-up-content {
+  background-color: rgba(75, 75, 75, 0.3);
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding-top: 36px;
-  padding-bottom: 48px;
 }
 
-.title-form {
-  font-family: "Lucida Grande";
+.create-account-title {
+  color: #ffffff;
+}
+
+.account-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  margin: 36px 390px;
+  align-items: center;
+  background: #4b4b4b;
+  box-shadow: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.account-sign-up {
+  font-family: 'Lucida Grande';
+  margin: 28px 112px 20px 112px;
   font-size: 18px;
   line-height: 27px;
   letter-spacing: 1px;
-  margin-top: 28px;
-  color: #ebcb80;
+  font-weight: 700;
+  color:#ebcb80;
   text-transform: uppercase;
-  text-align: center;
-}
-
-.sign-up-form {
-  box-sizing: border-box;
-  background-color: #4b4b4b;
-  border-radius: 8px;
-  padding: 0px 52px;
-  box-shadow: 0 10px 25px rgba(92, 99, 105, 0.2);
-}
-
-.input-container {
-  height: 45px;
-  /* margin-bottom: 25px; */
-  margin-top: 25px;
-  text-align: center;
 }
 
 .input {
-  background-color: #f6f6f6;
-  width: 256px;
-  height: 36px;
+  margin: 0px 52px 25px 52px;
+  padding: 3px 58px 3px 15px;
+  background: #ffffff;
+  font-size: 14px;
+  line-height: 28px;
+  mix-blend-mode: normal;
+  opacity: 0.8;
   border: 1px solid #999999;
   border-radius: 4px;
+}
+
+.account-form>a {
+  color:#ebcb80;
+  padding: 0px 9px;
   font-size: 16px;
-  outline: none;
-  opacity: 0.8;
-  padding: 8px 128px 10px 15px;
+  line-height: 24px;
+  text-decoration: underline;
 }
 
 .btn-sign-up {
-  font-weight: 400;
+  padding: 14px 61px;
+  margin: 19px 81px 24px 81px;
+  border-radius: 50px;
+  border: none;
+  font-weight: 400px;
   font-size: 16px;
   line-height: 20px;
-  letter-spacing: 1px;
-  color: #4b4b4b;
 }
+/* ====== End create account ====== */
 
-.btn-sign-up:hover {
-  background-color: #ebcb80;
-  transform: translateY(-2px);
-}
-
-.login-here {
-  color: #ebcb80;
-  text-decoration: underline;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-}
-/* Footer Styles */
+/* ====== Footer Styles */
 
 .footer {
   background-color: #f6f6f6;
