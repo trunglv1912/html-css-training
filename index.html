@@ -18,11 +18,11 @@
     />
   </head>
 
-  <>
+  <body>
     <!--Header start-->
     <header class="main-header">
       <div class="container">
-        <div class="main-menu-container">
+        <div class="main-menu-container d-flex">
           <!-- Start Page Logo -->
           <h1 class="page-title">
             <img src="images/header/header-logo.png" alt="HOFMANN" />
@@ -30,8 +30,8 @@
           <!-- End Page Logo -->
 
           <!-- Start Main Navigation -->
-          <nav class="main-nav">
-            <ul class="nav-header-list">
+          <nav class="main-nav d-flex">
+            <ul class="nav-header-list d-flex">
               <li><a class="nav-header-link">Mission</a></li>
               <li><a class="nav-header-link">Services</a></li>
               <li><a class="nav-header-link">About</a></li>
@@ -43,8 +43,10 @@
         <!-- End Main Menu -->
 
         <!-- Start Banner -->
-        <section class="banner-header">
-          <h2 class="banner-title">What Makes A Hotel Boutique</h2>
+        <section class="banner-header d-flex">
+          <h2 class="banner-title section-heading">
+            What Makes A Hotel Boutique
+          </h2>
           <p class="banner-description section-content">
             As conscious traveling Paupers we must always be concerned about our
             dear Mother Earth. If you think about it, you travel across her
@@ -63,13 +65,13 @@
       <div class="container">
         <h2 class="section-heading">Subscribing Plans</h2>
         <!-- Start cards list -->
-        <ul class="plan-list">
+        <ul class="plan-list d-flex">
           <!-- Freemium card -->
-          <li class="plan-item">
+          <li class="plan-item d-flex">
             <div class="plan-title freemium-plan">
               <h3 class="plan-name">Freemium</h3>
 
-              <div class="plan-price">
+              <div class="plan-price d-flex">
                 <span class="currency">$</span>
                 <span class="price">0</span>
               </div>
@@ -84,7 +86,7 @@
             <button class="btn btn-get-started">Get started</button>
           </li>
           <!-- Start-up card -->
-          <li class="plan-item">
+          <li class="plan-item d-flex">
             <div class="plan-title start-up-plan">
               <h3 class="plan-name">Start-up</h3>
 
@@ -103,7 +105,7 @@
             <button class="btn btn-get-started">Get started</button>
           </li>
           <!-- Business card -->
-          <li class="plan-item">
+          <li class="plan-item d-flex">
             <div class="plan-title business-plan">
               <h3 class="plan-name">Business</h3>
 
@@ -151,18 +153,15 @@
     <!-- Start Features-->
     <section class="features">
       <div class="container">
-        <h2 class="section-heading">Features</h2>
+        <h2 class="features-title section-heading">Features</h2>
         <p class="sub-heading">We're taking it to the next level</p>
 
-        <div class="feature-content">
-          <div class="feature-list">
+        <div class="feature-content d-flex">
+          <div class="feature-list d-flex">
             <!-- Responsive -->
-            <div class="feature-item">
+            <div class="feature-item d-flex">
               <div class="feature-icon">
-                <img
-                  src="/images/features/responsive.png"
-                  alt="responsive"
-                />
+                <img src="images/features/responsive.png" alt="responsive" />
               </div>
               <div class="feature-details">
                 <h3 class="feature-name">Responsive layout</h3>
@@ -174,12 +173,9 @@
             </div>
 
             <!-- Diamond -->
-            <div class="feature-item">
+            <div class="feature-item d-flex">
               <div class="feature-icon">
-                <img
-                  src="/images/features/diamond.png"
-                  alt="diamond"
-                />
+                <img src="images/features/diamond.png" alt="diamond" />
               </div>
               <div class="feature-details">
                 <h3 class="feature-name">Pixel perfect</h3>
@@ -191,12 +187,9 @@
             </div>
 
             <!-- Layers -->
-            <div class="feature-item">
+            <div class="feature-item d-flex">
               <div class="feature-icon">
-                <img
-                  src="/images/features/layers.png"
-                  alt="layers"
-                />
+                <img src="images/features/layers.png" alt="layers" />
               </div>
               <div class="feature-details">
                 <h3 class="feature-name">Organized layers</h3>
@@ -214,91 +207,95 @@
         </div>
       </div>
     </section>
-    <!-- End Features -->
+    <!-- End Features Us -->
 
     <!-- Start Create account section -->
     <section class="create-account">
       <div class="container">
         <h3 class="create-account-title section-heading">Create An Account</h3>
-
-        <form class="account-form">
-            <p class="account-sign-up">sign up</p>
-            <input class="input" type="text" placeholder="Email" />
-            <input class="input" type="password" placeholder="Password" />
-            <input class="input" type="password" placeholder="Confirm Password" />
-            <a title="Already Have an account?" class="account-link">Already Have an account?</a>
-            <button class="btn btn-sign-up">sign up</button>
+        <form class="account-form d-flex">
+          <p class="form-title">sign up</p>
+          <input class="form-input" type="text" placeholder="Email" />
+          <input class="form-input" type="password" placeholder="Password" />
+          <input
+            class="form-input"
+            type="password"
+            placeholder="Confirm Password"
+          />
+          <a class="account-link">Already Have an account?</a>
+          <button class="btn btn-sign-up" type="submit" value="Submit">
+            sign up
+          </button>
         </form>
-      </div>  
+      </div>
     </section>
     <!-- End create-account -->
 
-    
     <!-- Start Footer-->
     <footer class="footer">
       <div class="container">
-        <div class="footer-content">
-          <div class="footer-header">
-            <!-- Start nav-footer -->
-
-            <ul class="nav-footer-list">
-              <li><a class="nav-footer-link">HOTELS</a></li>
-              <li><a class="nav-footer-link">SERVICES</a></li>
-              <li><a class="nav-footer-link">FIND MORE</a></li>
-              <li><a class="nav-footer-link">AIRLINES</a></li>
-              <li><a class="nav-footer-link">VACATIONS</a></li>
-            </ul>
-
-            <!-- Start social-list -->
-            <ul class="social-list">
-              <li>
-                <a class="social-link">
-                  <i class="fab fa-pinterest"></i>
-                </a>
-              </li>
-
-              <li>
-                <a class="social-link">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-
-              <li>
-                <a class="social-link">
-                  <i class="fab fa-facebook"></i>
-                </a>
-              </li>
-            </ul>
-            <!-- End social-list -->
-          </div>
-
-          <div class="footer-info">
-            <div class="contact">
-              <ul class="contact-list">
-                <li class="contact-item">606-956-2811</li>
-                <li class="contact-item">8194 Ullrich Groves Suite 986</li>
-                <li class="contact-item">592 Missouri Park Suite 818</li>
-              </ul>
-
-              <p class="copy-right">Copyright © 2016 Goldenfox</p>
-            </div>
-            <div class="subscribe">
-              <p class="">
-                Hoffman UI Kit was made to help you quickly create beautiful
-                layouts of responsive websites.
-              </p>
-              <input
-                class="input"
-                name="email-footer"
-                placeholder="Enter Email"
-                type="text"
+        <div class="footer-header">
+          <ul class="footer-list">
+            <li class="footer-item"><a title="hotels">hotels</a></li>
+            <li class="footer-item"><a title="services">services</a></li>
+            <li class="footer-item"><a title="find more">find more</a></li>
+            <li class="footer-item"><a title="airlines">airlines</a></li>
+            <li class="footer-item"><a title="vacations">vacations</a></li>
+          </ul>
+          <ul class="social-list d-flex">
+            <li>
+              <img
+                class="social-item"
+                src="images/footer/pinterest.png"
+                alt="pinterest"
               />
-              <input class="btn-subscribe" value="SUBSCRIBE!" type="submit" />
-            </div>
+            </li>
+            <li>
+              <img
+                class="social-item"
+                src="images/footer/twitter.png"
+                alt="twitter"
+              />
+            </li>
+            <li>
+              <img
+                class="social-item"
+                src="images/footer/facebook.png"
+                alt="facebook"
+              />
+            </li>
+          </ul>
+        </div>
+
+        <hr style="margin: 0" />
+
+        <div class="footer-content section-content d-flex">
+          <div class="footer-contact">
+            <ul class="contact-list">
+              <li class="contact-item section-content">606-956-2811</li>
+              <li class="contact-item section-content">
+                8194 Ullrich Groves Suite 986
+              </li>
+              <li class="contact-item section-content">
+                592 Missouri Park Suite 818
+              </li>
+            </ul>
+            <p class="copy-right section-content">
+              Copyright &copy 2016 Goldenfox
+            </p>
+          </div>
+          <div class="footer-form">
+            <p class="footer-form-text">
+              Hoffman UI Kit was made to help you quickly create beautiful
+              layouts of responsive websites.
+            </p>
+            <input class="input-email" type="email" placeholder="Enter Email" />
+            <button class="btn-subcribe" type="submit">subscribe</button>
           </div>
         </div>
       </div>
     </footer>
+
     <!-- End Footer Plan -->
   </body>
 </html>
