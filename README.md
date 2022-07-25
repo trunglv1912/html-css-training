@@ -37,6 +37,6 @@ Actual time: 7 days (End day Jul 21, 2022)
 
 # Run
 
-git clone git@gitlab.asoft-python.com:trung.leviet/html-css-training.git
-git checkout feature/practice-one
-Open index.html by your browser
+- git clone git@gitlab.asoft-python.com:trung.leviet/html-css-training.git
+- git checkout feature/practice-one
+- Open index.html by your browser
