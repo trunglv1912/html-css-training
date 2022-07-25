@@ -415,6 +415,7 @@ body {
 
 .contact-list {
   opacity: 0.5;
+  line-height: 24px;
 }
 
 .copy-right {
